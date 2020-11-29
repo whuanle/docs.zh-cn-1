@@ -37,7 +37,7 @@ ms.locfileid: "89137170"
 
 ## <a name="readonly-field-example"></a>Readonly 字段示例
 
-在此示例中，即使在类构造函数中给字段 `year` 赋了值，也无法在方法 `ChangeYear` 中更改其值：
+在此示例中，只能在类构造函数中给字段 `year` 赋初始值，在方法 `ChangeYear` 中无法更改其值：
 
 [!code-csharp[Readonly Field example](snippets/ReadonlyKeywordExamples.cs#ReadonlyField)]
 
